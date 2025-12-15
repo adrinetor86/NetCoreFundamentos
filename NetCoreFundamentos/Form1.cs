@@ -22,6 +22,22 @@ namespace NetCoreFundamentos
             this.txtNombre.Width = 220;
             this.txtNombre.TextAlign = HorizontalAlignment.Center;
             this.txtNombre.BackColor = Color.Fuchsia;
+
+            //NO ES CONVERSION AUTOMATICA
+            short pequeño = 88;
+            int mayor = pequeño;
+
+            //STRING A PRIMITIVO
+            string textoNumero = "Hoy es viernes";
+            int numero = int.Parse(textoNumero);
+            double otro = double.Parse(textoNumero);
+
+            int mayor2 = 88;
+            short pequeño2 = (short)mayor2;
+
+
+            string dato = pequeño.ToString();
+            dato = btnPulsar.ToString();
         }
     }
 }
