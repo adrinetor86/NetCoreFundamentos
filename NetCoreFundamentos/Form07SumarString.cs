@@ -5,13 +5,15 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-
+using System.IO;
 namespace NetCoreFundamentos
 {
     public partial class Form07SumarString : Form
     {
         public Form07SumarString()
         {
+            // System.IO.DirectoryInfo directory;
+            BufferedStream stream;
             InitializeComponent();
         }
 

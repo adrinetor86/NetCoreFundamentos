@@ -24,8 +24,8 @@ namespace NetCoreFundamentos
             this.txtNombre.BackColor = Color.Fuchsia;
 
             //NO ES CONVERSION AUTOMATICA
-            short pequeño = 88;
-            int mayor = pequeño;
+            short pequeÃ±o = 88;
+            int mayor = pequeÃ±o;
 
             //STRING A PRIMITIVO
             string textoNumero = "Hoy es viernes";
@@ -33,10 +33,10 @@ namespace NetCoreFundamentos
             double otro = double.Parse(textoNumero);
 
             int mayor2 = 88;
-            short pequeño2 = (short)mayor2;
+            short pequeÃ±o2 = (short)mayor2;
 
 
-            string dato = pequeño.ToString();
+            string dato = pequeÃ±o.ToString();
             dato = btnPulsar.ToString();
         }
     }

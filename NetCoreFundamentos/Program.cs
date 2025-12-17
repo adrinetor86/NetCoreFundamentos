@@ -17,7 +17,16 @@ namespace NetCoreFundamentos
             //Application.Run(new Form04DateTime());
             //Application.Run(new Form05Char());
             //Application.Run(new Form06EmailValidator());
-            Application.Run(new Form07SumarString());
+            // Application.Run(new Form07SumarString());
+            //Application.Run(new Form08StringBuilder());
+          //  Application.Run(new Form09Isbn());
+            //Application.Run(new Form10ColeccionGrafica());
+            //Application.Run(new Form11ColeccionMultiple());
+            // Application.Run(new Form12ColeccionNumeros());
+            //Application.Run(new Form13TiendaProductos());
+            //Application.Run(new Form14Metodos());
+            //Application.Run(new Form15ArrayList());
+            Application.Run(new Form16ListDelegado());
 
         }
     }
