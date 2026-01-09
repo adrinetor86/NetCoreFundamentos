@@ -30,7 +30,6 @@ namespace NetCoreFundamentos
                     this.textos.Add((TextBox)elemento);    
                 }
                 
-             
             }
 
         }
